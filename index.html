@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+    <title>手机H5</title>
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- <link rel="stylesheet" href="css/cube.css"> -->
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/style.js"></script>
+</head>
+<body>
+<div class="music muc"></div> 
+<!-- Swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="ani " swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
+
+            <div class="page page1 " >
+                <div class="ani " swiper-animate-effect="fadeInLeft" swiper-animate-duration="2s" swiper-animate-delay="1s">真心话<br>(๑´•ω•)
+                <p>大冒险</p>
+                </div>   
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
+            <div class="page page2">
+                <h1 class="ani " swiper-animate-effect="rotateIn" swiper-animate-delay="1s">简单游戏介绍</h1>
+                <p class='gz ani' swiper-animate-effect="fadeInRight" swiper-animate-delay="2s">比较普通的为首先猜拳或划拳等，由输的一方选择“真心话”还是“大冒险”，选择真心话，则有胜方随意问输者问题，输者必须全部如实回答；选择大冒险，则胜方随意出任何行为问题由输方尝试完成。</p>
+                <div class="sf ani" swiper-animate-effect="rollIn" swiper-animate-duration="4s" swiper-animate-delay="0.5s">
+                   <h1>温馨提示</h1>
+                   <p class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="5s" swiper-animate-delay="1.5s"><img src="images/sf.png" width="100%"></p>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1s">
+            <div class="page page3">
+            <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="2s"><img src="images/al.png"  width="100%" height="100%"></p>
+            <p class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="3s"><img src="images/al1.png" width="100%" height="100%"></p>
+            <p class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="4s"><img src="images/al1.png" width="100%" height="100%"></p>
+            <p class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="5s"><img src="images/tm.png"  width="100%" height="100%" ></p>
+            </div>
+            </div>
+        </div>
+    </div>
+        <!-- Add Pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+</div>
+
+
+<audio autoplay="true" loop>
+     <source src="http://res1.eqh5.com/f1038fa275d045b39046dcf0b777b339.mp3" type="audio/mpeg" >
+</audio>
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+         var mySwiper = new Swiper ('.swiper-container', {
+             // pagination: '.swiper-pagination',
+             // paginationClickable: true,
+             direction: 'vertical',
+
+              onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+                swiperAnimateCache(swiper); //隐藏动画元素 
+                swiperAnimate(swiper); //初始化完成开始动画
+              }, 
+
+              onSlideChangeEnd: function(swiper){ 
+                swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+              } 
+
+          })        
+    </script>
+</body>
+</html>

@@ -1,0 +1,384 @@
+/**{
+    margin:0;
+    padding:0;
+}*/
+html, body {
+    position: relative;
+    height: 100%;
+    background-color: url('../images/ssss.png') no-repeat center center/100% 100%;
+}
+body {
+    background: url('../images/ssss.png') no-repeat center center/100% 100%;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    background: url('../images/ssss.png') no-repeat center center/100% 100%;;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: url('../images/ssss.png') no-repeat center center/100% 100%;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+div.ani{
+    width: 100%;
+    height: 100%;
+}
+.page{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+     background: url('../images/ssss.png') no-repeat center center/100% 100%;
+}
+/*.page1{
+    display: block;
+}
+.page2{
+    display: block;
+}
+.page3{
+    display: block;
+}*/
+.page1{
+    background: url('../images/bb.png') no-repeat center center/100% 100%;
+}
+.page1 div{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    height: 50%;
+    padding-top: 80%;
+    color:pink;
+}
+.page1 div p{
+   display: block;
+   font-size: 50px;
+         animation: xss 2s linear  infinite;
+    -moz-animation: xss 2s linear  infinite; 
+ -webkit-animation: xss 2s linear  infinite; 
+      -o-animation: xss 2s linear  infinite;
+}
+@keyframes xss{
+    0%{
+        text-shadow:0 0 20px purple;
+    }
+    25%{
+        text-shadow:0 0 50px purple;
+    }
+    50%{
+        text-shadow:0 0 100px purple;
+    }
+    75%{
+        text-shadow:0 0 50px purple;
+    }
+    100%{
+        text-shadow:0 0 20px purple;
+    }
+}
+
+.page2{
+    background: url('../images/sm.png') no-repeat center center/100% 100%;
+}
+.page2>h1{
+    font-size:1.5rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+    /*     animation: xzh 3s linear .5s;
+    -moz-animation: xzh 3s linear .5s; 
+ -webkit-animation: xzh 3s linear .5s; 
+      -o-animation: xzh 3s linear .5s;*/
+}
+/*@keyframes xzh{
+    0%{
+        transform:rotate(0deg);
+        background: #fff;
+    }
+    25%{
+        transform:rotate(180deg);
+        background: green;
+    }
+    50%{
+        transform:rotate(180deg);
+        background: yellow;
+    }
+    75%{
+        transform:rotate(90deg);
+        background: red;
+    }
+    100%{
+        transform:rotate(0deg);
+        background: transparent;
+    }
+}*/
+
+
+.page2 .gz{
+     width:80vw;
+     margin:10% auto;
+     color: red;
+     border-radius: 1rem;
+     padding:0 1rem; 
+     background: rgba(255,255,255,.4);
+     text-indent: 1rem;
+     line-height: 1.8rem;
+     font-size: 1rem;
+     font-weight: 500;
+       /* animation: xzp 3s linear 1.5s;
+    -moz-animation: xzp 3s linear 1.5s; 
+ -webkit-animation: xzp 3s linear 1.5s; 
+      -o-animation: xzp 3s linear 1.5s;*/
+}
+/*@keyframes xzp{
+    0%{
+        transform:rotate(0deg);
+        
+    }
+    100%{
+        transform:rotate(360deg);
+        
+    }
+}*/
+
+.page2 .sf{
+    width: 80vw;
+    height: 80vw;
+    border-radius: 5vw;
+    border: 2px solid #fff;
+    margin:0 auto;
+    background: rgba(255,255,255,.4);
+        /* animation: xzpt 6s linear ;
+    -moz-animation: xzpt 6s linear ; 
+ -webkit-animation: xzpt 6s linear ; 
+      -o-animation: xzpt 6s linear ;*/
+}
+/*@keyframes xzpt{
+    0%{
+        opacity: 0;
+        transform:scale(0.1,0.1);
+    }
+    100%{
+        opacity: 1;
+        transform:scale(1,1);
+    }
+}*/
+
+.page2 .sf h1{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: green;
+         animation: xzpts 3s linear infinite ;
+    -moz-animation: xzpts 3s linear infinite ; 
+ -webkit-animation: xzpts 3s linear infinite ; 
+      -o-animation: xzpts 3s linear infinite ;
+}
+@keyframes xzpts{
+    0%{
+        color:green;
+    }
+    25%{
+        color:red;
+    }
+    50%{
+        color:yellow;
+    }
+    75%{
+        color:blue;
+    }
+    100%{
+        color: green
+    }
+}
+
+.page2 .sf p img{
+    margin:0 auto;
+   /*      animation: tp 2s linear 4 ;
+    -moz-animation: tp 2s linear 4 ; 
+ -webkit-animation: tp 2s linear 4 ; 
+      -o-animation: tp 2s linear 4 ;*/
+}
+/*@keyframes tp{
+    0%{
+        transform:scale(0,0);
+    }
+    25%{
+        transform:scale(0.5,0.5)
+    }
+    50%{
+        transform:scale(1,1)
+    }
+    75%{
+        transform:scale(0.5,0.5)
+    }
+    100%{
+       transform:scale(0,0);
+    }
+}*/
+.page3{
+    background: url('../images/pg3.png') no-repeat center center/100% 100%;
+}
+.page3 p{
+    width: 40vw;
+    height: 40vw;
+    float: left;
+    margin:5vw;
+    margin-top: 22vw;
+    overflow: hidden;
+}
+
+/*.page3 p:nth-child(1) img{
+         animation: tps 2s linear  ;
+    -moz-animation: tps 2s linear  ; 
+ -webkit-animation: tps 2s linear  ; 
+      -o-animation: tps 2s linear  ;
+}*/
+/*@keyframes tps{
+    0%{
+        transform:translateX(-125px);
+    }
+    25%{
+        transform:translateX(-94px);
+    }
+    50%{
+        transform:translateX(-63px);
+    }
+    75%{
+        transform:translateX(-32px);
+    }
+    100%{
+       transform:translateX(0px);
+    }
+}
+*/
+/*.page3 p:nth-child(2) img{
+         animation: tpst 3s linear ;
+    -moz-animation: tpst 3s linear ; 
+ -webkit-animation: tpst 3s linear ; 
+      -o-animation: tpst 3s linear ;
+}*/
+/*@keyframes tpst{
+    0%{
+        transform:translateY(-125px);
+    }
+    25%{
+        transform:translateY(-94px);
+    }
+    50%{
+        transform:translateY(-63px);
+    }
+    75%{
+        transform:translateY(-32px);
+    }
+    100%{
+       transform:translateY(0px);
+    }
+}
+*/
+/*.page3 p:nth-child(3) img{
+         animation: tpss 2s linear  ;
+    -moz-animation: tpss 2s linear  ; 
+ -webkit-animation: tpss 2s linear  ; 
+      -o-animation: tpss 2s linear  ;
+}*/
+/*@keyframes tpss{
+    0%{
+        transform:translateX(125px);
+    }
+    25%{
+        transform:translateX(94px);
+    }
+    50%{
+        transform:translateX(63px);
+    }
+    75%{
+        transform:translateX(32px);
+    }
+    100%{
+       transform:translateX(0px);
+    }
+}*/
+
+/*.page3 p:nth-child(4) img{
+         animation: tpsf 3s linear ;
+    -moz-animation: tpsf 3s linear ; 
+ -webkit-animation: tpsf 3s linear ; 
+      -o-animation: tpsf 3s linear ;
+}*/
+/*@keyframes tpsf{
+    0%{
+        transform:translateY(125px);
+    }
+    25%{
+        transform:translateY(94px);
+    }
+    50%{
+        transform:translateY(63px);
+    }
+    75%{
+        transform:translateY(32px);
+    }
+    100%{
+       transform:translateY(0px);
+    }
+}*/
+
+
+.music{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background:url('http://as.eqh5.com/h5_view/images/normalmusic.svg') center center/100% 100%;
+    position: fixed;
+    top:10px;
+    right: 10px;
+    z-index: 10;     
+}
+
+/*唱片旋转*/
+.muc{
+         animation: xz 3s linear infinite;
+    -moz-animation: xz 3s linear infinite; 
+ -webkit-animation: xz 3s linear infinite; 
+      -o-animation: xz 3s linear infinite;
+}
+@keyframes xz{
+    0%{
+        transform:rotate(0deg);
+           }
+    20%{
+        transform:rotate(72deg);
+    }
+    40%{
+        transform:rotate(144deg); 
+    }
+    60%{
+        transform:rotate(216deg);   
+    }
+    80%{
+        transform:rotate(288deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
